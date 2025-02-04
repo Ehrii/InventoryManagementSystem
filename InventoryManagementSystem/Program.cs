@@ -64,7 +64,7 @@ namespace InventoryManagementSystem
                         program.getTotalValue();
                         break;
                     case "X":
-                        Environment.Exit(0);
+                        exit = false;
                         break;
                     default:
                         Console.WriteLine("Please Input a Valid Choice, Try Again!");
