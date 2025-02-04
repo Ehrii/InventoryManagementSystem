@@ -64,6 +64,7 @@ namespace InventoryManagementSystem
                         program.getTotalValue();
                         break;
                     case "X":
+                    case "x":
                         exit = false;
                         break;
                     default:
