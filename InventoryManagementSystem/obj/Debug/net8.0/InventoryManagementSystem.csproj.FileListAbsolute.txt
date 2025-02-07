@@ -12,3 +12,4 @@ C:\Users\John Eriel Labadan\source\repos\InventoryManagementSystem\InventoryMana
 C:\Users\John Eriel Labadan\source\repos\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net8.0\InventoryManagementSystem.pdb
 C:\Users\John Eriel Labadan\source\repos\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net8.0\InventoryManagementSystem.genruntimeconfig.cache
 C:\Users\John Eriel Labadan\source\repos\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net8.0\ref\InventoryManagementSystem.dll
+C:\Users\John Eriel Labadan\source\repos\InventoryManagementSystem\InventoryManagementSystem\obj\Debug\net8.0\InventoryManagementSystem.sourcelink.json
