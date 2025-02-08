@@ -17,11 +17,8 @@ CREATE TABLE Employees(
 
 
 -- Inserts sample employee records into the Employees table
-INSERT INTO EMPLOYEES (FirstName, LastName, DepartmentID, Salary, HireDate) VALUES ('John', 'Doe', 1, 50000, '2020-03-15'), 
-																				   ('Jane','Smith',2,60000,'2019-07-01'),
-																				   ('Alice','Brown',1,55000,'2021-06-23'),
-																				   ('Bob','Johnson',3,62000,'2018-09-12'),  
-																				   ('Charlie','Wilson',2,58000,'2022-01-08');
+INSERT INTO EMPLOYEES (FirstName, LastName, DepartmentID, Salary, HireDate) VALUES ('John', 'Doe', 1, 50000, '2020-03-15'), ('Jane','Smith',2,60000,'2019-07-01'),('Alice','Brown',1,55000,'2021-06-23'),('Bob','Johnson',3,62000,'2018-09-12'),  
+	('Charlie','Wilson',2,58000,'2022-01-08');
 -- Displays all records from the Employees table													
 SELECT  * FROM Employees;
 
