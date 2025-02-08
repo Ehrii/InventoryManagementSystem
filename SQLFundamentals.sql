@@ -19,6 +19,7 @@ CREATE TABLE Employees(
 -- Inserts sample employee records into the Employees table
 INSERT INTO EMPLOYEES (FirstName, LastName, DepartmentID, Salary, HireDate) VALUES ('John', 'Doe', 1, 50000, '2020-03-15'), ('Jane','Smith',2,60000,'2019-07-01'),('Alice','Brown',1,55000,'2021-06-23'),('Bob','Johnson',3,62000,'2018-09-12'),  
 	('Charlie','Wilson',2,58000,'2022-01-08');
+    
 -- Displays all records from the Employees table													
 SELECT  * FROM Employees;
 
@@ -28,7 +29,6 @@ CREATE TABLE Departments(
    DepartmentName VARCHAR(255) NOT NULL,
    UNIQUE(DepartmentName)
 );
-
 
 -- Inserts sample department records into the Departments table
 INSERT INTO Departments (DepartmentID, DepartmentName) VALUES (1,'IT'), (2,'HR'), (3,'Finance');  
@@ -78,8 +78,7 @@ SELECT HireDate, DATE_FORMAT(HireDate,"%M, %d, %Y") AS ConvertedHireDate FROM Em
 
 
 -- 7. Retrieve all employees along with their department names.
-SELECT *
-FROM Employees e
+SELECT * FROM Employees e
 JOIN Departments d ON e.DepartmentID = d.DepartmentID; 
 -- **Function and Statement Used**: `JOIN` (combines rows from two tables based on a related column)
 
