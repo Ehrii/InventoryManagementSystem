@@ -68,7 +68,8 @@ SELECT FirstName, LastName,
 CASE
 	WHEN Salary > 55000 THEN 'High'
 	ELSE 'Low'
-END AS SalaryCategory;
+END AS SalaryCategory
+FROM Employees;
 -- **Function and Statement Used**: `CASE` (conditional logic to categorize salaries)
 
 
