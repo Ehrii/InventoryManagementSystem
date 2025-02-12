@@ -50,10 +50,10 @@ DELIMITER $$
 		IN DepartmentName VARCHAR(50)
  )
  BEGIN 
-		SELECT * 
-        FROM Employees 
-        WHERE department = DepartmentName; 
-END$$
+ SELECT * 
+ FROM Employees 
+ WHERE department = DepartmentName; 
+ END$$
 DELIMITER ;
 
 -- Calling the stored procedure function
@@ -84,7 +84,7 @@ INSERT INTO Customers (name, email, city, signup_date) VALUES
 -- Describing the table customers
 DESCRIBE Customers;
 -- Identifying which columns should be indexed for better search performance
--- (Name, City, and Signup_Date)
+-- (Based on what I've learned, the Name, City, and Signup_Date are the columns that should be indexed since they are the most common columns for data retrieval and queries.)
 
 -- Create an appropriate index
 CREATE INDEX idx_name
